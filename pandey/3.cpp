@@ -79,7 +79,7 @@ void mouse(int btn, int state, int x, int y)
   { 
   //This check is based on size of the polygon mentioned in display() function if (((x < 150 || x>200) || (y < 200 || y>250))) 
   printf("Invalid click !!\n"); 
-//   else 
+  else 
   if (btn == GLUT_LEFT_BUTTON && state == GLUT_DOWN) { 
   int xi = x; 
   int yi = (wh - y); 
